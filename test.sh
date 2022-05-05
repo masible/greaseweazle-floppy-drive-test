@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 # See https://github.com/keirf/greaseweazle/issues/193
 gw info  2>&1 | grep -q "Not found"
 if [ $? == 0 ] ; then
